@@ -1,5 +1,7 @@
 ﻿
 
+using System.Net.Http.Headers;
+
 namespace VSFlyFabioPedro
 {
     class Program
@@ -17,9 +19,6 @@ namespace VSFlyFabioPedro
             else
                 Console.WriteLine("Database already exists");
             Console.WriteLine("Done");
-
-
-            var place = ctx.VolSet.to
         }
     }
 }

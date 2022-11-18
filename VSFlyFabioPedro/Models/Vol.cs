@@ -14,7 +14,7 @@ namespace VSFlyFabioPedro.Models
         public DateTime DépartHeureVol { get; set; }
         public string DépartLieuVol { get; set; }
         public string DestinationVol { get; set; }  
-        public int PlaceDisponibleVol { get; set; }
+        public int PlaceTotalVol { get; set; }
         public virtual ICollection<Réservation> Réservations { get; set; }
     }
 }
